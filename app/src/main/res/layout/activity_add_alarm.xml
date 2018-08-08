@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmSystem.AddAlarmActivity">
+
+
+    <EditText
+        android:padding="15dp"
+        android:layout_marginTop="40dp"
+        android:hint="Medcine Alarm Name"
+        android:id="@+id/add_alarm_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:padding="15dp"
+        android:layout_below="@id/add_alarm_name"
+        android:hint="Medcine Alarm Description"
+        android:id="@+id/add_alarm_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/add_alarm_description"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_add_alarm_datepick"
+        android:text="ADD DATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_add_alarm_datepick"
+        android:id="@+id/btn_add_alarm_timepick"
+        android:text="ADD TIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:text="DATE"
+        android:id="@+id/tv_picked_date"
+        android:textSize="22dp"
+        android:layout_below="@id/btn_add_alarm_timepick"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="15dp"
+        android:text="TIME"
+        android:id="@+id/tv_picked_time"
+        android:textSize="22dp"
+        android:layout_below="@id/tv_picked_date"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <android.support.design.widget.FloatingActionButton
+       android:src="@drawable/ic_add_alarm_white"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/tv_picked_time"
+       android:layout_width="70dp"
+       android:layout_height="70dp" />
+
+</RelativeLayout>

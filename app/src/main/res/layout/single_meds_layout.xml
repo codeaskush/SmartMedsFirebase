@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:elevation="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/img_single_med"
+            android:padding="10dp"
+            android:src="@drawable/meds_icon"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:layout_toRightOf="@id/img_single_med"
+            android:id="@+id/title_single_med"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="MED NAME"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="15dp"
+            android:text="MED DESC"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img_single_med"
+            android:layout_below="@id/title_single_med"
+            android:id="@+id/desc_single_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

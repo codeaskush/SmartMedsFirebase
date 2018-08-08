@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "129710794234",
+    "firebase_url": "https://smartmeds-78a7b.firebaseio.com",
+    "project_id": "smartmeds-78a7b",
+    "storage_bucket": "smartmeds-78a7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129710794234:android:61208332faec2db7",
+        "android_client_info": {
+          "package_name": "com.example.kushagra.smartmeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129710794234-aher4ik4nrmg3j8d873e5pq5crj23t8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kushagra.smartmeds",
+            "certificate_hash": "a3f0aff6a4fbfd91ceb2d57d1c4675c6db7668b6"
+          }
+        },
+        {
+          "client_id": "129710794234-0poocnota7mnlh464t33a78mbu54fvhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDrmAi59ZZZV5RuxoMlOS1VCXQOigl_I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129710794234-0poocnota7mnlh464t33a78mbu54fvhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

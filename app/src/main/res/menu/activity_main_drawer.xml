@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_alarm_nav"
+            android:icon="@drawable/ic_add_alarm"
+            android:title="Add Alarm" />
+        <item
+            android:id="@+id/my_alarm_nav"
+            android:icon="@drawable/ic_my_alarm"
+            android:title="My Alarms" />
+
+    </group>
+
+    <item android:title="More About">
+        <menu>
+            <item
+                android:id="@+id/meds_detail_nav"
+                android:icon="@drawable/ic_med_detail"
+                android:title="Medicine Details" />
+            <item
+                android:id="@+id/prevention_detail_nav"
+                android:icon="@drawable/ic_prevention_man"
+                android:title="Prevention Details" />
+            <item
+                android:id="@+id/important_conatct_nav"
+                android:icon="@drawable/ic_important_contact"
+                android:title="Important Contact" />
+        </menu>
+    </item>
+
+</menu>

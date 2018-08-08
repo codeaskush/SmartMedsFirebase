@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MoreAbout.MedicineDetails.AddNewMedActivity">
+
+
+    <EditText
+        android:textColor="@color/colorWhite1"
+        android:textColorHint="@color/colorWhite1"
+        android:id="@+id/et_addMedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:layout_marginTop="90dp"
+        android:hint="Medicine Name"
+        android:inputType="text" />
+
+    <EditText
+        android:textColor="@color/colorWhite1"
+        android:textColorHint="@color/colorWhite1"
+        android:id="@+id/et_addMedDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_addMedTitle"
+        android:layout_alignStart="@+id/et_addMedTitle"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btn_addMedSave"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/et_addMedDes"
+        android:text="ADD MEDICINE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
